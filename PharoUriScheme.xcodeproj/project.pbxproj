@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9E3E081F8E966E00054B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9E3E071F8E966E00054B61 /* AppDelegate.m */; };
+		DB9E3E0B1F8E966E00054B61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9E3E0A1F8E966E00054B61 /* main.m */; };
+		DB9E3E0E1F8E966E00054B61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9E3E0D1F8E966E00054B61 /* ViewController.m */; };
+		DB9E3E101F8E966E00054B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E3E0F1F8E966E00054B61 /* Assets.xcassets */; };
+		DB9E3E131F8E966E00054B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9E3E111F8E966E00054B61 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB9E3E031F8E966E00054B61 /* PharoUriScheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PharoUriScheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9E3E061F8E966E00054B61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB9E3E071F8E966E00054B61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB9E3E0A1F8E966E00054B61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB9E3E0C1F8E966E00054B61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB9E3E0D1F8E966E00054B61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB9E3E0F1F8E966E00054B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB9E3E121F8E966E00054B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9E3E141F8E966E00054B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9E3E001F8E966E00054B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9E3DFA1F8E966E00054B61 = {
+			isa = PBXGroup;
+			children = (
+				DB9E3E051F8E966E00054B61 /* PharoUriScheme */,
+				DB9E3E041F8E966E00054B61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9E3E041F8E966E00054B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E3E031F8E966E00054B61 /* PharoUriScheme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9E3E051F8E966E00054B61 /* PharoUriScheme */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E3E061F8E966E00054B61 /* AppDelegate.h */,
+				DB9E3E071F8E966E00054B61 /* AppDelegate.m */,
+				DB9E3E0C1F8E966E00054B61 /* ViewController.h */,
+				DB9E3E0D1F8E966E00054B61 /* ViewController.m */,
+				DB9E3E0F1F8E966E00054B61 /* Assets.xcassets */,
+				DB9E3E111F8E966E00054B61 /* Main.storyboard */,
+				DB9E3E141F8E966E00054B61 /* Info.plist */,
+				DB9E3E091F8E966E00054B61 /* Supporting Files */,
+			);
+			path = PharoUriScheme;
+			sourceTree = "<group>";
+		};
+		DB9E3E091F8E966E00054B61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E3E0A1F8E966E00054B61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9E3E021F8E966E00054B61 /* PharoUriScheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9E3E171F8E966E00054B61 /* Build configuration list for PBXNativeTarget "PharoUriScheme" */;
+			buildPhases = (
+				DB9E3DFF1F8E966E00054B61 /* Sources */,
+				DB9E3E001F8E966E00054B61 /* Frameworks */,
+				DB9E3E011F8E966E00054B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PharoUriScheme;
+			productName = PharoUriScheme;
+			productReference = DB9E3E031F8E966E00054B61 /* PharoUriScheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9E3DFB1F8E966E00054B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Manuel Leuenberger";
+				TargetAttributes = {
+					DB9E3E021F8E966E00054B61 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB9E3DFE1F8E966E00054B61 /* Build configuration list for PBXProject "PharoUriScheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9E3DFA1F8E966E00054B61;
+			productRefGroup = DB9E3E041F8E966E00054B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9E3E021F8E966E00054B61 /* PharoUriScheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9E3E011F8E966E00054B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E3E101F8E966E00054B61 /* Assets.xcassets in Resources */,
+				DB9E3E131F8E966E00054B61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9E3DFF1F8E966E00054B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E3E0E1F8E966E00054B61 /* ViewController.m in Sources */,
+				DB9E3E0B1F8E966E00054B61 /* main.m in Sources */,
+				DB9E3E081F8E966E00054B61 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB9E3E111F8E966E00054B61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9E3E121F8E966E00054B61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9E3E151F8E966E00054B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB9E3E161F8E966E00054B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB9E3E181F8E966E00054B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PharoUriScheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.unibe.scg.PharoUriScheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB9E3E191F8E966E00054B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PharoUriScheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.unibe.scg.PharoUriScheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9E3DFE1F8E966E00054B61 /* Build configuration list for PBXProject "PharoUriScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9E3E151F8E966E00054B61 /* Debug */,
+				DB9E3E161F8E966E00054B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9E3E171F8E966E00054B61 /* Build configuration list for PBXNativeTarget "PharoUriScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9E3E181F8E966E00054B61 /* Debug */,
+				DB9E3E191F8E966E00054B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9E3DFB1F8E966E00054B61 /* Project object */;
+}
