@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  PharoUriScheme
+//  PharoUrlScheme
 //
 //  Created by Manuel Leuenberger on 11.10.17.
 //  Copyright © 2017 Manuel Leuenberger. All rights reserved.
@@ -14,14 +14,23 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+-(void)applicationWillFinishLaunching:(NSNotification *)aNotification {
+    NSAppleEventManager *appleEventManager = [NSAppleEventManager sharedAppleEventManager];
+    [appleEventManager setEventHandler:self
+                           andSelector:@selector(handleGetURLEvent:withReplyEvent:)
+                         forEventClass:kInternetEventClass andEventID:kAEGetURL];
 }
 
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (void)handleGetURLEvent:(NSAppleEventDescriptor *)event withReplyEvent:(NSAppleEventDescriptor *)replyEvent {
+    NSURL *url = [NSURL URLWithString:[[event paramDescriptorForKeyword:keyDirectObject] stringValue]];
+    url = [NSURL URLWithString:[NSString stringWithFormat:@"http://localhost:9452/%@?%@", url.host, url.query]];
+    NSURLSessionDataTask *task = [[NSURLSession sharedSession]
+                                  dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+                                            NSLog(@"response: %@", response);
+                                            NSLog(@"error: %@", error);
+                                          }];
+    [task resume];
+    NSLog(@"url: %@", url);
 }
-
 
 @end
