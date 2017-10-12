@@ -14,7 +14,7 @@
 
 @implementation AppDelegate
 
--(void)applicationWillFinishLaunching:(NSNotification *)aNotification {
+- (void)applicationWillFinishLaunching:(NSNotification *)aNotification {
     NSAppleEventManager *appleEventManager = [NSAppleEventManager sharedAppleEventManager];
     [appleEventManager setEventHandler:self
                            andSelector:@selector(handleGetURLEvent:withReplyEvent:)
@@ -25,12 +25,8 @@
     NSURL *url = [NSURL URLWithString:[[event paramDescriptorForKeyword:keyDirectObject] stringValue]];
     url = [NSURL URLWithString:[NSString stringWithFormat:@"http://localhost:9452/%@?%@", url.host, url.query]];
     NSURLSessionDataTask *task = [[NSURLSession sharedSession]
-                                  dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-                                            NSLog(@"response: %@", response);
-                                            NSLog(@"error: %@", error);
-                                          }];
+                                  dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) { }];
     [task resume];
-    NSLog(@"url: %@", url);
 }
 
 @end
