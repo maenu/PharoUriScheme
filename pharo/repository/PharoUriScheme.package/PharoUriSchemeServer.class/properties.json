@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ZnManagingMultiThreadedServer",
+	"category" : "PharoUriScheme",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Port"
+	],
+	"instvars" : [ ],
+	"name" : "PharoUriSchemeServer",
+	"type" : "normal"
+}
