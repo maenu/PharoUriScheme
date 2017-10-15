@@ -23,7 +23,7 @@
 
 - (void)handleGetURLEvent:(NSAppleEventDescriptor *)event withReplyEvent:(NSAppleEventDescriptor *)replyEvent {
     NSURL *url = [NSURL URLWithString:[[event paramDescriptorForKeyword:keyDirectObject] stringValue]];
-    url = [NSURL URLWithString:[NSString stringWithFormat:@"http://localhost:9452/%@?%@", url.host, url.query]];
+    url = [NSURL URLWithString:[NSString stringWithFormat:@"http://localhost:9452/%@/%@?%@", url.host, url.path, url.query]];
     NSURLSessionDataTask *task = [[NSURLSession sharedSession]
                                   dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) { }];
     [task resume];
