@@ -8,7 +8,7 @@ handleRequest: request
 	arguments := arguments isArray
 		ifTrue: [ arguments ]
 		ifFalse: [ {arguments} asArray ].
-	[ class instance perform: selector withArguments: arguments ]
+	[ handler perform: selector withArguments: arguments ]
 		on: Error
 		do: [ :error | 
 			self flag: 'adobe acrobat seems to need success responses, so we catch it here already'.

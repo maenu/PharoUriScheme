@@ -1,6 +1,10 @@
 {
 	"instance" : {
-		"handleRequest:" : "ManuelLeuenberger 10/15/2017 16:11"
+		"handleRequest:" : "ManuelLeuenberger 10/27/2017 15:47",
+		"handler" : "ManuelLeuenberger 10/27/2017 14:02",
+		"handler:" : "ManuelLeuenberger 10/27/2017 14:02"
 	},
-	"class" : { }
+	"class" : {
+		"handler:" : "ManuelLeuenberger 10/27/2017 14:02"
+	}
 }

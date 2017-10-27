@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"monitor"
+		"monitor",
+		"handler"
 	],
 	"name" : "PharoUriSchemeDelegate",
 	"type" : "normal"
