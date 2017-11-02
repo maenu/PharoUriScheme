@@ -6,8 +6,8 @@ make
 		at: #PipeableOSProcess
 		ifAbsent: [ self signal: 'Could not find PipeableOSProcess, loading failed.' ].
 	cachedGithubRepository := (serverClass mcWorkingCopy repositoryGroup repositories
-		detect: [ :r | (r isKindOf: MCGitHubRepository) and: [ r projectPath = 'maenu/PharoUriSchemeServer' ] ]) directory / '..' / '..'.
-	process := pipeableOSProcessClass command: 'cd ''' , cachedGithubRepository , ''' && make'.
+		detect: [ :r | (r isKindOf: MCGitHubRepository) and: [ r projectPath = 'maenu/PharoUriScheme' ] ]) directory / '..' / '..'.
+	process := pipeableOSProcessClass command: 'cd ''' , cachedGithubRepository pathString , ''' && make'.
 	[ out := process upToEndOfFile ] fork.
 	[ err := process errorUpToEndOfFile ] fork.
 	delay := Delay forMilliseconds: 50.
