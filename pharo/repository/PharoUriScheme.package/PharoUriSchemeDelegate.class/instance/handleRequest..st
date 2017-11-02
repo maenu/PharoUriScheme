@@ -1,8 +1,7 @@
 public
 handleRequest: request
-	| pathSegments class selector arguments |
+	| pathSegments selector arguments |
 	pathSegments := '/' split: request uri path.
-	class := Smalltalk globals at: (pathSegments at: 1) asSymbol.
 	selector := ((pathSegments at: 2) replaceAll: $. with: $:) asSymbol.
 	arguments := request uri query at: 'args'.
 	arguments := arguments isArray
