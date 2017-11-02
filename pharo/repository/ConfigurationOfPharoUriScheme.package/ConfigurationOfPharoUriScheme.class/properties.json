@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ConfigurationOf",
+	"category" : "ConfigurationOfPharoUriScheme",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ConfigurationOfPharoUriScheme",
+	"type" : "normal"
+}
