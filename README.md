@@ -34,4 +34,4 @@ s
 ```
 
 When the link `pharo://whatever/you/want/value.?args=Hello%20world` is clicked (as in this [example](https://jsfiddle.net/qoq1wyya/)), the app get the URI from an OS event and sends a request to `http://localhost:9452/whatever/you/want/value.?args=Hello%20world`.
-In Pharo the server translates it to the message send `handler value: 'Hello world'`, so will see `Hello world` printed in the transcript.
+In Pharo, the server translates it to the message send `handler value: 'Hello world'`, so you will see `Hello world` printed in the transcript.
