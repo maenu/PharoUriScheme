@@ -10,4 +10,5 @@ baseline: spec
 						repository: 'http://www.smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main' ];
 				package: 'PharoUriScheme' with: [ spec requires: 'OSProcess' ];
 				group: 'default' with: #('PharoUriScheme');
-				postLoadDoIt: #postLoadActions ]
+				postLoadDoIt: #postLoadActions;
+				yourself ]
