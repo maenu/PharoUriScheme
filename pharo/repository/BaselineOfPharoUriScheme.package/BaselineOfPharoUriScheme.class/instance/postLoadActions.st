@@ -1,3 +1,3 @@
 doits
 postLoadActions
-	self class installApp
+	self class make
